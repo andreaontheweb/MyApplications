@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         name = (EditText)findViewById(R.id.txtName);
         name.setText(messagename);
+        
         loc = (EditText)findViewById(R.id.txtLocation);
         loc.setText(messagelocation);
         desig = (EditText)findViewById(R.id.txtDesignation);
